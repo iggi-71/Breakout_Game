@@ -146,7 +146,7 @@ function draw() {
         dy = -2;
         paddleX = (canvas.width - paddleWidth) / 2;
       }
-    }
+    } 
   }
 
   if (rightPressed && paddleX < canvas.width - paddleWidth) {
